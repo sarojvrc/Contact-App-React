@@ -1,0 +1,102 @@
+[debug] [2021-12-11T15:13:17.117Z] ----------------------------------------------------------------------
+[debug] [2021-12-11T15:13:17.122Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2021-12-11T15:13:17.123Z] CLI Version:   9.22.0
+[debug] [2021-12-11T15:13:17.124Z] Platform:      linux
+[debug] [2021-12-11T15:13:17.124Z] Node Version:  v16.13.0
+[debug] [2021-12-11T15:13:17.162Z] Time:          Sat Dec 11 2021 20:43:17 GMT+0530 (India Standard Time)
+[debug] [2021-12-11T15:13:17.162Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-11T15:13:17.355Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-11T15:13:17.356Z] > authorizing via signed-in user (saroj.vrc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/saroj/Desktop/React 30 Days Challenge/Day 17 (Contact App)
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-12-11T15:13:34.952Z] ----------------------------------------------------------------------
+[debug] [2021-12-11T15:13:34.958Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-12-11T15:13:34.959Z] CLI Version:   9.22.0
+[debug] [2021-12-11T15:13:34.960Z] Platform:      linux
+[debug] [2021-12-11T15:13:34.960Z] Node Version:  v16.13.0
+[debug] [2021-12-11T15:13:34.961Z] Time:          Sat Dec 11 2021 20:43:34 GMT+0530 (India Standard Time)
+[debug] [2021-12-11T15:13:34.961Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-11T15:13:35.074Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-11T15:13:35.075Z] > authorizing via signed-in user (saroj.vrc@gmail.com)
+[debug] [2021-12-11T15:13:35.075Z] [iam] checking project react-redux-contact-2b160 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-11T15:13:35.080Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-11T15:13:35.081Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-11T15:13:35.436Z] <<< HTTP RESPONSE 200 {"date":"Sat, 11 Dec 2021 15:13:35 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-11T15:13:35.546Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-redux-contact-2b160:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-11T15:13:36.986Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 11 Dec 2021 15:13:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1148","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-11T15:13:36.990Z] > refreshing access token with scopes: []
+[debug] [2021-12-11T15:13:36.991Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-11T15:13:37.304Z] <<< HTTP RESPONSE 200 {"date":"Sat, 11 Dec 2021 15:13:37 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-11T15:13:37.403Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-redux-contact-2b160 [none]
+[debug] [2021-12-11T15:13:38.000Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-redux-contact-2b160 200
+[debug] [2021-12-11T15:13:38.000Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-redux-contact-2b160 {"projectId":"react-redux-contact-2b160","projectNumber":"351950606836","displayName":"React Redux Contact","name":"projects/react-redux-contact-2b160","resources":{"hostingSite":"react-redux-contact-2b160"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'react-redux-contact-2b160'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-12-11T15:13:38.010Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-11T15:13:38.010Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-11T15:13:38.305Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 11 Dec 2021 15:13:38 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-11T15:13:38.413Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/react-redux-contact-2b160/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-12-11T15:13:40.745Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 11 Dec 2021 15:13:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[react-redux-contact-2b160]: beginning deploy... 
+[info] i  hosting[react-redux-contact-2b160]: found 13 files in build 
+[debug] [2021-12-11T15:13:40.768Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2021-12-11T15:13:41.029Z] > refreshing access token with scopes: []
+[debug] [2021-12-11T15:13:41.029Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-11T15:13:41.032Z] [hosting] hash cache [YnVpbGQ] stored for 13 files
+[debug] [2021-12-11T15:13:41.032Z] [hosting][hash queue][FINAL] {"max":250,"min":40,"avg":71.6923076923077,"active":0,"complete":13,"success":13,"errored":0,"retried":0,"total":13,"elapsed":263}
+[debug] [2021-12-11T15:13:41.385Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 11 Dec 2021 15:13:41 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-11T15:13:41.665Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-redux-contact-2b160/versions/6942186d1dbca930:populateFiles [none]
+[debug] [2021-12-11T15:13:41.666Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-redux-contact-2b160/versions/6942186d1dbca930:populateFiles {"files":{"/asset-manifest.json":"2a10496bae3561d334d8e255647b4b4cae988e6d1c17ef3ab7c58dbea185ade9","/index.html":"3ecc25298f0ae30407d4f24ba85ee51019ef3b7c2ff406668ff70f7c81b8d488","/static/css/main.afd7172b.chunk.css":"4caafd3e70bdce1753a8c6b78a528e19f4462ce27d7e39b3983f73afbf8bc6f8","/static/css/main.afd7172b.chunk.css.map":"0acf701bfbe3813178e2acb675d69c93859f98f663e5f71919023c6a0eea1b64","/static/js/2.fb2c1114.chunk.js.LICENSE.txt":"7c19c6ace827dcc32488b7f59e57c70d3ceb02a8f5627ca302b0bfcafa02b578","/static/js/main.f289f01f.chunk.js":"68f8cf57684b2db9efd12231ad56def215cd914ad60ec94dd52cfe2f7b7316b9","/static/js/runtime-main.439e38a6.js":"6bfe692e63a1b356e19f68e5188d15469b4f57802eaa46ea42679072a26b366f","/static/js/runtime-main.439e38a6.js.map":"547ae11a459cfba7cba8fd41583c7080215a24ffcb5099a3a640fae05d1fcf34","/static/js/main.f289f01f.chunk.js.map":"56228d42e1d7fc4f669bcb73a8a3dc00a4b2ca97cfcd67a0d4f2f6c38251e168","/static/css/2.3038005c.chunk.css":"3464be4d1e40a1f40d320df4bb72bc7ab84c98fbebdefe11685869c342368155","/static/js/2.fb2c1114.chunk.js":"831e62e98fbb084a34e77596da5bc0882b2aaf18b9e1bfa5296826a8fbdd505a","/static/css/2.3038005c.chunk.css.map":"cd9fe0df16dafceaee8e61b05798db1fa7c432699eefaf6804e72ebf65180ecd","/static/js/2.fb2c1114.chunk.js.map":"87347a6da816c9b8b7cee520106ee32046380bb3891c879360e6655048ab48c0"}}
+[debug] [2021-12-11T15:13:43.437Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-redux-contact-2b160/versions/6942186d1dbca930:populateFiles 200
+[debug] [2021-12-11T15:13:43.437Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-redux-contact-2b160/versions/6942186d1dbca930:populateFiles {"uploadRequiredHashes":["3ecc25298f0ae30407d4f24ba85ee51019ef3b7c2ff406668ff70f7c81b8d488","547ae11a459cfba7cba8fd41583c7080215a24ffcb5099a3a640fae05d1fcf34","56228d42e1d7fc4f669bcb73a8a3dc00a4b2ca97cfcd67a0d4f2f6c38251e168","3464be4d1e40a1f40d320df4bb72bc7ab84c98fbebdefe11685869c342368155","cd9fe0df16dafceaee8e61b05798db1fa7c432699eefaf6804e72ebf65180ecd","4caafd3e70bdce1753a8c6b78a528e19f4462ce27d7e39b3983f73afbf8bc6f8","68f8cf57684b2db9efd12231ad56def215cd914ad60ec94dd52cfe2f7b7316b9","7c19c6ace827dcc32488b7f59e57c70d3ceb02a8f5627ca302b0bfcafa02b578","0acf701bfbe3813178e2acb675d69c93859f98f663e5f71919023c6a0eea1b64","6bfe692e63a1b356e19f68e5188d15469b4f57802eaa46ea42679072a26b366f","831e62e98fbb084a34e77596da5bc0882b2aaf18b9e1bfa5296826a8fbdd505a","2a10496bae3561d334d8e255647b4b4cae988e6d1c17ef3ab7c58dbea185ade9","87347a6da816c9b8b7cee520106ee32046380bb3891c879360e6655048ab48c0"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files"}
+[debug] [2021-12-11T15:13:43.458Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/3ecc25298f0ae30407d4f24ba85ee51019ef3b7c2ff406668ff70f7c81b8d488 [none]
+[debug] [2021-12-11T15:13:43.459Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/3ecc25298f0ae30407d4f24ba85ee51019ef3b7c2ff406668ff70f7c81b8d488 [stream]
+[debug] [2021-12-11T15:13:43.462Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/547ae11a459cfba7cba8fd41583c7080215a24ffcb5099a3a640fae05d1fcf34 [none]
+[debug] [2021-12-11T15:13:43.462Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/547ae11a459cfba7cba8fd41583c7080215a24ffcb5099a3a640fae05d1fcf34 [stream]
+[debug] [2021-12-11T15:13:43.465Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/56228d42e1d7fc4f669bcb73a8a3dc00a4b2ca97cfcd67a0d4f2f6c38251e168 [none]
+[debug] [2021-12-11T15:13:43.465Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/56228d42e1d7fc4f669bcb73a8a3dc00a4b2ca97cfcd67a0d4f2f6c38251e168 [stream]
+[debug] [2021-12-11T15:13:43.470Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/3464be4d1e40a1f40d320df4bb72bc7ab84c98fbebdefe11685869c342368155 [none]
+[debug] [2021-12-11T15:13:43.471Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/3464be4d1e40a1f40d320df4bb72bc7ab84c98fbebdefe11685869c342368155 [stream]
+[debug] [2021-12-11T15:13:43.495Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/cd9fe0df16dafceaee8e61b05798db1fa7c432699eefaf6804e72ebf65180ecd [none]
+[debug] [2021-12-11T15:13:43.495Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/cd9fe0df16dafceaee8e61b05798db1fa7c432699eefaf6804e72ebf65180ecd [stream]
+[debug] [2021-12-11T15:13:43.503Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/4caafd3e70bdce1753a8c6b78a528e19f4462ce27d7e39b3983f73afbf8bc6f8 [none]
+[debug] [2021-12-11T15:13:43.503Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/4caafd3e70bdce1753a8c6b78a528e19f4462ce27d7e39b3983f73afbf8bc6f8 [stream]
+[debug] [2021-12-11T15:13:43.506Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/68f8cf57684b2db9efd12231ad56def215cd914ad60ec94dd52cfe2f7b7316b9 [none]
+[debug] [2021-12-11T15:13:43.506Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/68f8cf57684b2db9efd12231ad56def215cd914ad60ec94dd52cfe2f7b7316b9 [stream]
+[debug] [2021-12-11T15:13:43.509Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/7c19c6ace827dcc32488b7f59e57c70d3ceb02a8f5627ca302b0bfcafa02b578 [none]
+[debug] [2021-12-11T15:13:43.509Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/7c19c6ace827dcc32488b7f59e57c70d3ceb02a8f5627ca302b0bfcafa02b578 [stream]
+[debug] [2021-12-11T15:13:43.517Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/0acf701bfbe3813178e2acb675d69c93859f98f663e5f71919023c6a0eea1b64 [none]
+[debug] [2021-12-11T15:13:43.517Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/0acf701bfbe3813178e2acb675d69c93859f98f663e5f71919023c6a0eea1b64 [stream]
+[debug] [2021-12-11T15:13:43.523Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/6bfe692e63a1b356e19f68e5188d15469b4f57802eaa46ea42679072a26b366f [none]
+[debug] [2021-12-11T15:13:43.523Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/6bfe692e63a1b356e19f68e5188d15469b4f57802eaa46ea42679072a26b366f [stream]
+[debug] [2021-12-11T15:13:43.527Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/831e62e98fbb084a34e77596da5bc0882b2aaf18b9e1bfa5296826a8fbdd505a [none]
+[debug] [2021-12-11T15:13:43.527Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/831e62e98fbb084a34e77596da5bc0882b2aaf18b9e1bfa5296826a8fbdd505a [stream]
+[debug] [2021-12-11T15:13:43.531Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/2a10496bae3561d334d8e255647b4b4cae988e6d1c17ef3ab7c58dbea185ade9 [none]
+[debug] [2021-12-11T15:13:43.532Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/2a10496bae3561d334d8e255647b4b4cae988e6d1c17ef3ab7c58dbea185ade9 [stream]
+[debug] [2021-12-11T15:13:43.534Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/87347a6da816c9b8b7cee520106ee32046380bb3891c879360e6655048ab48c0 [none]
+[debug] [2021-12-11T15:13:43.534Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/react-redux-contact-2b160/versions/6942186d1dbca930/files/87347a6da816c9b8b7cee520106ee32046380bb3891c879360e6655048ab48c0 [stream]
+[debug] [2021-12-11T15:13:43.537Z] [hosting][populate queue][FINAL] {"max":2430,"min":2430,"avg":2430,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2509}
+[debug] [2021-12-11T15:13:43.537Z] [hosting] uploads queued: 13
